@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    height: 99vh;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+    display: flex;
+    transition: all 3s;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: gray;
+    height: 50%;
+    width: 30%;
+}
+.language{
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.txt{
+    display: block;
+    margin-bottom:30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid blue;
+    margin: 5px;
+}

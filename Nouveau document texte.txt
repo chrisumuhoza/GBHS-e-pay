@@ -1,0 +1,20 @@
+
+
+            <div class="level">
+              <div class="txt">you may choose your next class level</div>
+              <div class="class-level">
+                <select name="Gender" id="Gender" title="gender" required>
+                 <span class="Class"><option value="Class">Form 1</option></span> 
+                 <span class="Class"><option value="Class">Form 2</option></span> 
+                 <span class="Class"><option value="Class">Form 3</option></span> 
+                 <span class="Class"><option value="Class">Form 4</option></span> 
+                 <span class="Class"><option value="Class">Form 5</option></span> 
+                 <span class="Class"><option value="Class">Lower sixth</option></span> 
+                 <span class="Class"><option value="Class">Upper sixth</option></span> 
+  
+                </select>
+              </div>
+            </div>
+          </div>
+       
+     

@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #014d6f 10%, #2b8e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: none;
+    transition: all 2s;
+}
+div.container{
+    background-color: royalblue;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+}
+div.sql-form{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.label{
+   
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    column-gap: 1px;
+    scroll-snap-type: x mandatory;
+    
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+div.label::-webkit-scrollbar{
+    border-radius: 20px;
+}
+div.student{
+    
+    scroll-snap-align: start;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+div.active{
+    display: none;
+}
+div.birth{
+    display: none;
+}
+div.activetwo{
+    display: block;
+}
+div.lastclass{
+    display: none;
+}
+div.activethree{
+    display: block;
+}
+div.next__button1{
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+}
+div.next__button2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+div.txt{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+div.placeholder{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+div>div>input{
+    text-align: center;
+    justify-content: center;
+    padding: 5px 8px 5px 8px ;
+    margin-left: 10px;
+    margin-bottom: 7%;
+
+}
